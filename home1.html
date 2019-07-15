@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Online Shopping</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+      body {
+    background-color: black;
+          
+}
+      .button {
+    background-color:  beige;
+      }
+     .grid-container {
+  display: grid;
+  grid-template-areas: 
+  'left left middle middle right right';
+   grid-column-gap: 10px; - /*if you want gap between the columns */
+}
+.left,
+.middle,
+.right {
+  padding: 10px;
+  /*height: 300px; /* Should be removed. Only for demonstration */
+}
+/* Style the left column */
+.left {
+  grid-area: left;
+}
+/* Style the middle column */
+.middle {
+  grid-area: middle;
+}
+/* Style the right column */
+.right {
+  grid-area: right;
+}
+      
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      margin-bottom: 0;
+    }
+   
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: black;
+      padding: 25px;
+    }
+      .row {
+  display: flex;
+}
+.column {
+  flex: 33.33%;
+  padding: 5px;
+} 
+      img.resize {
+  width:2846px;
+  height:890px;
+}
+      
+   
+  </style>
+</head>
+<body>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+   <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img class="resize" src="https://assets.ajio.com/medias/sys_master/images/images/h06/hfa/12009314746398/6112018-D-IHP-Indieweekly-soulfulsilks.jpg" alt="pic1" >
+    </div>
+    <div class="item">
+      <img class="resize" src="https://assets.ajio.com/medias/sys_master/images/images/heb/hd8/12009316679710/6112018-D-IHP-brandsyoulove-indiepicks.jpg" alt="pic2">
+    </div>
+    <div class="item">
+      <img class="resize" src="https://assets.ajio.com/medias/sys_master/images/images/h1d/he7/12077995884574/26112018-D-SHP-Indie-MainBanner.jpg" alt="pic3">
+    </div>
+     <div class="item">
+   <img class="resize" src="https://assets.ajio.com/medias/sys_master/images/images/hfd/h95/12088997675038/28112018-D-SHP-FlashOffer-buymoresaveore1at503at60off.jpg" alt="pic4">
+     </div>
+  </div>
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+      <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+        <a class="navbar-brand" href="#"><i class="fas fa-dragon" style="font-size:24px;color:white;"></i></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+<!--        <li><a href="#">Products</a></li>-->
+          <li><a href="page4.html">About Us</a></li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+<div class="container-fluid">    
+  <div class="row">
+    <div class="col-sm-4">
+     <div class="panel panel-danger">
+        
+       <div class="panel-body">
+            <a href=women.html><img src="https://assets.ajio.com/medias/sys_master/root/h00/h41/11692821708830/-1117Wx1400H-460202089-green-MODEL.jpg" class="left" style="width:100%" width="550" height="700" alt="Image">
+            </a> <div class="caption" align="center">
+            <p>WOMEN</p>
+       </div>
+   </div>
+      
+     </div>
+   </div>
+      
+     <div class="col-sm-4"> 
+    <div class="panel panel-danger">
+       
+        <div class="panel-body"><img src="https://cdn.desenio.co.uk/bilder/artiklar/zoom/8393_2.jpg"  class="middle" style="width:100%" width="550" height="730" alt="Image"></div>
+     </div>
+      </div>
+      
+      
+     
+    <div class="col-sm-4"> 
+     <div class="panel panel-danger">
+          <div class="panel-body">
+              <a href=men.html><img src="http://www.magment.com/wp-content/uploads/2015/07/Casual-And-Funky-Looks-5.jpg"  class="right" style="width:100%" width="550" height="700" alt="Image"></a>
+          <div class="caption" align="center">
+            <p>MEN</p>
+          </div>
+         </div>
+     
+    </div>
+   </div>
+    
+ 
+</div><br>
+  
+<footer class="container-fluid text-center">
+    <button type="button"  class="button" data-toggle="collapse" data-target="#demo">Click Me</button>
+  <div id="demo" class="collapse">
+      fashion is an instant language 
+      Happy Shopping!!!
+    </div>
+</footer>
+</body>
+</html>
